@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <title>Fale Conosco</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <header>
+
+            <div class="top-bar">
+                <div class="container">
+                    Horário de funcionamento: 9:00 - 18:00 horas
+                </div>
+                <br />
+            </div>
+
+            <div class="container">
+                <img class="logo" src="assets/logo.gif" alt="Logo da empresa" title="Aqui é apresentado a logo da empresa" />
+
+                <nav>
+
+                    <a alt="direciona para a pagina inicial" href="index.html">
+                        Página Inicial
+                    </a>
+
+                    &emsp;|&emsp;
+                    <a alt="Direciona para a lista de marcas que trabalhamos" href="index.html#marcas">
+                        Produtos e Marcas
+                    </a>
+
+                    &emsp;|&emsp;
+
+                    <a title="Direciona para a pagina de fale conosco" href="faleconosco.html">
+                        Fale Conosco
+                    </a> 
+
+                    <div class="btn-exclude">
+                        <a href="ondeestamos.html" title="Direciona para a pagina onde estamos" class="btn-destaque">
+                            Onde estamos
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <br class="clearfix" />
+        <section class="sec-fale-onde">
+            <div class="container">
+                <div class="metade">
+
+                    <!--
+                        Método: 
+                        -GET: Dados são passados pela URL.
+                        -POST: Dados são passados via requisição.
+                    -->
+                    <form enctype="application/x-www-form-urlencoded" method="post" action="">
+                        <!--nome-->
+                        <label for="nomeCompleto">Nome: </label>
+                        <input id="nomeCompleto" type="text" name="nome_completo" placeholder="Digite seu nome completo..."/>
+                        <br />
+                        <!--email-->
+                        <label for="email">Email: </label>
+                        <input id="email" type="text" name="email" placeholder="Digite seu email..."/>
+                        <br />
+                        <!--telefone-->
+                        <label for="telefone">Telefone: </label>
+                        <input id="telefone" type="text" name="telefone" placeholder="Digite seu telefone..."/>
+                        <br />
+                        <!--mensagem-->
+                        <label for="mensagem">Mensagem: </label>
+                        <textarea id="mensagem" type="text" name="mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
+
+                        <br />
+                        <!--submit-->
+                        <input type="submit" value="Enviar"/>
+
+
+                    </form>
+                </div>
+
+                <div class="metade">
+                    <div>
+                        <strong>Redes Sociais: </strong><br />
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/fb.png" /></a>
+
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/tt.png" /></a>
+
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/inst.png" /></a>
+                        <br /> <br/ >
+                        <strong>Telefone: </strong><br /> (16) 3333-3333
+                    </div>
+                    <br />
+                    <br />
+                    <address>
+                        Brasil, SP
+                        <br />
+                        Rua Alguma coisa só pra teste, 20 - Centro
+                        <br />
+                        Taquaritinga
+                        <br />
+                        15900-000
+                    </address>
+                </div>
+            </div>
+        </section>
+        
+        <br class="clearfix" />
+        
+        <footer>
+            <div class="container">
+                <div class="um-terco">
+
+                    <img class="logo" src="assets/logo.gif" alt="Logo da empresa" title="Aqui é apresentado a logo da empresa" />
+
+                    <div class="margin-left">
+
+                        <p>
+                            Nos oferecemos um serviço completo  para o melhor conforto da sua visão.
+                        </p>
+
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/fb.png" /></a>
+
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/tt.png" /></a>
+
+                        <a href="#"><img alt="Direciona para o facebook" src="assets/inst.png" /></a>
+                    </div>
+
+                </div>
+                <div class="um-terco">
+                    <div class="margin-left">
+                        <h3>Links</h3>
+
+                        <a alt="direciona para a pagina inicial" href="index.html">
+                            Início
+                        </a><br />
+
+                        <a alt="Direciona para a lista de marcas que trabalhamos" href="index.html#marcas">
+                            Produtos e Marcas
+                        </a><br />
+
+                        <a alt="Direciona para a pagina de fale conosco" href="faleconosco.html">
+                            Fale Conosco
+                        </a><br />
+
+                        <a alt="Direciona para a pagna de onde estamos" href="ondeestamos.html">
+                            Onde Estamos
+                        </a>
+                    </div>  
+                </div>
+                <div class="um-terco">
+                    <h3>Contato</h3>
+
+                    <p>
+                        Rua um, endereço dois, avenida tres.
+                    </p>
+                    <p>
+                        Taquaritinga - SP
+                    </p>
+                    <p>
+                        CEP: 15900-000
+                    </p>   
+                    <p>
+                        Telefone: <a href="tel:(16)333-3333">(16) 3333-3333</a>.
+                    </p>
+
+                    Email: <a href="mailto:exemplo@exempl.com.br">exemplo@exempl.com.br</a>
+                </div>
+            </div>
+
+            <br class="clearfix" />
+
+            <div class="direitos-reservados">
+                Todos os direitos reservados () 2017. <a href="termosuso.html" title="Direciona para a pagina contendo os termos de uso">Termos de uso</a> e <a href="politicaprivacidade.html" title="Direciona para a pagina de politica de privacidade">Política de privacidade</a>
+            </div>
+        </footer>
+    </body>
+</html>
