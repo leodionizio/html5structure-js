@@ -17,6 +17,10 @@ body {
     overflow-x: hidden;
 }
 
+input, textarea {
+    font-family: 'Raleway', sans-serif;
+}
+
 .top-bar {
     border-bottom: 1px solid #cecece;
     color: #444;
@@ -196,6 +200,12 @@ a {
     width: 70% !important;
     background-color: #f0f0f0;
     padding: 4px 8px;
+    color: #666;
+}
+
+.metade form input[type=text]::placeholder, .modal input[type=text]::placeholder, textarea::placeholder {
+    color: #999;
+    font-family: 'Raleway', sans-serif;
 }
 
 .metade textarea {
@@ -258,3 +268,18 @@ a {
     cursor: pointer;
 }
 
+.invalido {
+    color: red;
+    border-color: red !important;
+}
+
+span.invalido {
+    display: none;
+}
+
+span.qtdCaractere{
+    font-size: 10px;
+    float: right;
+    margin-right: 5%;
+    margin-top: -18px;
+}

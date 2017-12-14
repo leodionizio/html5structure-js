@@ -54,7 +54,7 @@
                         -GET: Dados são passados pela URL.
                         -POST: Dados são passados via requisição.
                     -->
-                    <form enctype="application/x-www-form-urlencoded" method="post" action="">
+                    <form name="contatoForm" enctype="application/x-www-form-urlencoded" method="post" action="">
                         <!--nome-->
                         <label for="nomeCompleto">Nome: </label>
                         <input id="nomeCompleto" type="text" name="nome_completo" placeholder="Digite seu nome completo..."/>
@@ -70,8 +70,9 @@
                         <!--mensagem-->
                         <label for="mensagem">Mensagem: </label>
                         <textarea id="mensagem" type="text" name="mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
+                        <span class="qtdCaractere"></span>
 
-                        <br />
+                        <br class="clearfix" />
                         <!--submit-->
                         <input type="submit" value="Enviar"/>
 
@@ -174,5 +175,6 @@
                 Todos os direitos reservados () 2017. <a href="termosuso.html" title="Direciona para a pagina contendo os termos de uso">Termos de uso</a> e <a href="politicaprivacidade.html" title="Direciona para a pagina de politica de privacidade">Política de privacidade</a>
             </div>
         </footer>
+        <script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
